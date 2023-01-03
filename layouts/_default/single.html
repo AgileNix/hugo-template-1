@@ -22,12 +22,6 @@
       {{partial "toc.html" .}}
       {{partial "textprocessing.html" . }}
     </article>
-    {{/* <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}}" {{- if eq (.Identifier) `coderslangjs`
-      }} target="_blank" {{- end}}>
-      <span {{- if eq (.Identifier) `coderslangjs` }} class="startlearning" {{- end}}>
-        {{- .Name -}}
-      </span>
-    </a> */}}
     {{partial "footer.html" .}}
   </div>
 </body>
