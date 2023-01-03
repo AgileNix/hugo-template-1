@@ -1,5 +1,3 @@
-## default baseURL
-baseURL = "https://siteone.timeattic.com/"
 languageCode = "en-us"
 relativeURLs = false
 
@@ -9,7 +7,8 @@ disablePathToLower = true
 ignoreFiles = [
     "/content/templates/*",
     "/content/private/*",
-    "/content/.github"
+    "/content/.github",
+    "/content/.obsidian"
 ]
 summaryLength = 20
 paginate = 10

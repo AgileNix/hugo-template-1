@@ -1,0 +1,13 @@
+enableToc = true
+openToc = false
+enableLinkPreview = true
+enableLatex = false
+enableCodeBlockTitle = true
+enableCodeBlockCopy = true
+enableCallouts = true
+enableSPA = true
+enableFooter = true
+enableContextualBacklinks = true
+enableRecentNotes = false
+enableGitHubEdit = false
+enableMermaid = false
