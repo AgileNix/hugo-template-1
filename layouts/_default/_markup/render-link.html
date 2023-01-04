@@ -1,13 +1,9 @@
 {{$dashedurl := replace .Destination "%20" "-" }}
 {{$external := strings.HasPrefix $dashedurl "http" }}
-{{$externalButCoderslang := (findRE "coderslang.com" $dashedurl) }}
-{{- if $externalButCoderslang -}}
-<a href="{{ $dashedurl }}" rel="noopener" target="_blank">{{ .Text | safeHTML }}</a>
-{{- else if $external -}}
-<a href="{{ $dashedurl }}" rel="noopener nofollow" target="_blank">{{ .Text | safeHTML }}</a>
+{{- if $external -}}
+<a href="{{ $dashedurl }}" rel="noopener">{{ .Text | safeHTML }}</a>
 {{- else -}}
 {{$trimmed := strings.TrimSuffix ".md" (.Destination | safeURL)}}
-{{$trimmed := strings.TrimSuffix "/_index" ($trimmed | safeURL)}}
 {{$spacedurl := replace $trimmed "%20" " " }}
 {{$fixedUrl := (cond (hasPrefix $spacedurl "/") $spacedurl (print "/" $spacedurl)) | urlize}}
 {{$nonexistent := eq (.Page.GetPage $spacedurl).RelPermalink ""}}
