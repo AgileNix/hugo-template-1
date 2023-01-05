@@ -1,7 +1,7 @@
 languageCode = "en-us"
 relativeURLs = false
 
-# enabling lowercase path breaks backlinks and link previews
+# !!setting this to false path breaks backlinks, link previews and graph
 disablePathToLower = true
 
 ignoreFiles = [

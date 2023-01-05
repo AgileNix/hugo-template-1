@@ -11,3 +11,4 @@ enableContextualBacklinks = true
 enableRecentNotes = false
 enableGitHubEdit = false
 enableMermaid = false
+page_title="Timeattic"
