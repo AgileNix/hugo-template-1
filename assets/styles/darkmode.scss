@@ -25,6 +25,11 @@
   }
 }
 
+.darklogo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 .toggle:checked ~ label {
   & > #dayIcon {
     opacity: 0;

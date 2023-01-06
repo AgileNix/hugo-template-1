@@ -16,11 +16,14 @@ const switchTheme = (e) => {
     document.documentElement.setAttribute('saved-theme', 'dark');
     localStorage.setItem('theme', 'dark');
     syntaxTheme.href = '{{ $darkSyntax.Permalink }}';
+    //TODO: remove the workaround and find better solution to changing the color of the logo
+    document.getElementById('logo').classList.add('darklogo');
   }
   else {
     document.documentElement.setAttribute('saved-theme', 'light')
     localStorage.setItem('theme', 'light')
     syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
+    document.getElementById('logo').classList.remove('darklogo');
   }
 }
 

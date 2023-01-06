@@ -1,6 +1,6 @@
 <header>
   {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
-  <img src="/logo.png" alt="logo" height="40px" />
+  <img src="/logo.png" alt="logo" height="40px" id="logo" />
   <h1 id="page-title"><a href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).page_title | default
       $.Site.Data.config.page_title }}</a></h1>
   <div class="spacer"></div>
