@@ -14,8 +14,8 @@
   --million-progress-bar-color: var(--secondary);
   --highlighted: #f5dfaf88;
   --inline-code: gainsboro;
-  --startLearningBackgroundColor: orange;
-  --startLearningTextColor: black;
+  --footerCtaBackgroundColor: orange;
+  --footerCtaTextColor: black;
 }
 
 [saved-theme="dark"] {
@@ -31,9 +31,6 @@
   --outlinegray: #343434 !important;
   --highlighted: #574010;
   --inline-code: #424242;
-  --startLearningBackgroundColor: tomato;
-  --startLearningTextColor: white;
+  --footerCtaBackgroundColor: tomato;
+  --footerCtaTextColor: white;
 }
-
-
-

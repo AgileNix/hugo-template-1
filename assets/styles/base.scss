@@ -37,7 +37,6 @@ html {
   }
 }
 
-
 body {
   margin: 0;
   height: 100vh;
@@ -124,15 +123,15 @@ tbody, li, p {
   }
 }
 
-.startLearning {
+.footerCtaLink {
   font-size: 1.2em;
-  background-color: var(--startLearningBackgroundColor);
+  background-color: var(--footerCtaBackgroundColor);
   border-radius: 5px;
   padding: 6px;
-  color: var(--startLearningTextColor);
+  color: var(--footer);
 }
 
-.footerCTA {
+.footerCta {
   margin-top: 1.5em;
   width: auto;
   text-align: center;

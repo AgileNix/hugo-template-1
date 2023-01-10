@@ -11,3 +11,5 @@ enableContextualBacklinks = true
 enableRecentNotes = false
 enableGitHubEdit = false
 enableMermaid = false
+footerCtaTitle = "🔥 START LEARNING 🔥"
+footerCtaUrl = "https://js.coderslang.com"
